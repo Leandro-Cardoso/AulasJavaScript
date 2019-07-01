@@ -3,4 +3,5 @@
 
 ### Topicos:
 
-1. ex001.html -> Estrutura e comando window (criar janelas). 
+1. ex001.html -> Estrutura, comando window (criar janelas) e comentários.
+2. ex002.html -> Tipos de variáveis e comando typeof.

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 002</title>
+    <style>
+        body{
+            background-color: lightslategray;
+            color: rgb(188, 195, 199);
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício 002</h1>
+    <p>Conteúdo de teste, para os exercícios de JavaScript...</p>
+    <script>
+        // Variável tipo string:
+        var nome = window.prompt('Qual seu nome?')
+        window.alert('Seu nome é ' + nome + ', de tipo: ' + typeof nome) // typeof é comando para verificar o tipo de uma variável.
+        
+        //  Variável tipo number:
+        var idade = 30
+        window.alert('Você tem ' + idade + ' anos, de tipo: ' + typeof idade)
+        
+        // Variável tipo boolean:
+        var confirmacao = window.confirm('Mensagem de confirmação.')
+        window.alert(confirmacao + ' de tipo: ' + typeof confirmacao)
+    </script>
+</body>
+</html>
