@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 003</title>
+    <style>
+        body{
+            background-color: lightslategray;
+            color: rgb(188, 195, 199);
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício 003</h1>
+    <p>Conteúdo de teste, para os exercícios de JavaScript...</p>
+    <script>
+        // Soma de variáveis:
+        var n1 = window.prompt('Qual primeiro número?')
+        var n2 = window.prompt('Qual segundo número?')
+        var soma = Number(n1) + Number(n2) // Number() converte de String para Number.
+        window.alert('A soma é ' + soma)
+        // Number.parseInt() converte para número inteiro.
+        // Number.parseFloat() converte para número flutuante.
+
+        // Converter Number para String:
+        soma = String(soma)
+        window.alert('O tipo mudou para ' + typeof soma)
+        // VARIÁVEL.toString() também converte para String.
+
+        // ${VARIÁVEL} dentro de uma String entre crases `exemplo` mostra o valor da variável.
+        document.write(`<p>O número ${n1}, somado com ${n2}, é igual a ${soma}.</p>`)
+
+        // VARIÁVEL.length quantidade de elementos.
+        // VARIÁVEL.toUpperCase() passa tudo para maiúsculo.
+        // VARIÁVEL.toLowerCase() passa tudo para minúsculo.
+        var teste = 'Texto'
+        document.write(`<p>A palavra ${teste}, que tem ${teste.length} caracteres, em maiúsculo fica ${teste.toUpperCase()}, e em minúsculo fica ${teste.toLowerCase()}.</p>`)
+
+        // Definir número de casas decimais:
+        var n = 100
+        document.write(`<p>O número ${n}, com 2 casas decimais fica ${n.toFixed(2)}.</p>`)
+    </script>
+</body>
+</html>
