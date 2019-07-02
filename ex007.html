@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 007</title>
+    <style>
+        body{
+            background-color: lightslategray;
+            color: rgb(188, 195, 199);
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício 007</h1>
+    <p>Conteúdo de teste, para os exercícios de JavaScript...</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <div id="div1">
+        <center><p>Clique aqui!</p></center>
+    </div>
+    <div id="div2">
+        <center><p>Clique aqui!</p></center>
+    </div>
+    <script>
+        // DOM:
+        document.write(document.URL + '<br />')
+        document.write(document.charset + '<br />')
+        document.write(navigator.appName + '<br /><br />')
+
+        // DOM - seleção por marca:
+        // .getElementsByTagName()
+        var p1 = document.getElementsByTagName('p')[0] // 1º paragrafo
+        var p2 = document.getElementsByTagName('p')[1] // 2º paragrafo
+        document.write(p1.innerText + '<br />') // .innerText somente o texto
+        document.write(p2.innerText + '<br />')
+        document.write(p2.innerHTML + '<br /><br />') // .innerHTML texto com edição HTML
+        p2.style.color = 'gold' // cor do 2º paragrafo
+
+        // Cor de fundo: Ex.
+        document.body.style.backgroundColor = 'grey'
+
+        // DOM - seleção por Id:
+        // .getElementById()
+        var d1 = document.getElementById('div1')
+        document.write(d1.innerHTML)
+        d1.style.backgroundColor = 'black' // Forma indireta
+        document.getElementById('div2').style.backgroundColor = 'red' // Forma direta
+
+        // DOM - seleção por Nome:
+        // .getElementsByName()
+
+        // DOM - seleção por Classe:
+        // .getElementsByClassName()
+
+        // DOM - seleção por Selector:
+        // .querySelector() -> singular
+        document.querySelector('div#div2').style.color = 'gold' // # para id e . para class
+        // .querySelectorAll() -> plural
+    </script>
+</body>
+</html>
