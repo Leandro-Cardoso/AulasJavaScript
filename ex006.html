@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 006</title>
+    <style>
+        body{
+            background-color: lightslategray;
+            color: rgb(188, 195, 199);
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício 006</h1>
+    <p>Conteúdo de teste, para os exercícios de JavaScript...</p>
+    <script>
+        // Operadores relacionais:
+        var n1 = 5
+        var n2 = 2
+        document.write(`<strong>Números: ${n1} e ${n2}</strong><br />`)
+        document.write(`${n1} é maior que ${n2} -> ${n1 > n2}<br />`)
+        document.write(`${n1} é menor que ${n2} -> ${n1 < n2}<br />`)
+        document.write(`${n1} é maior ou igual a ${n2} -> ${n1 >= n2}<br />`)
+        document.write(`${n1} é menor ou igual a ${n2} -> ${n1 <= n2}<br />`)
+        document.write(`${n1} é igual a ${n2} -> ${n1 == n2}<br />`)
+        document.write(`${n1} não é igual a ${n2} -> ${n1 != n2}<br /><br />`)
+
+        // Operadores lógicos:
+        // ! -> Não
+        document.write(`${n1} não é maior que ${n2} -> ${!(n1 > n2)}<br />`)
+        // && -> E
+        document.write(`${n1} é maior que ${n2} e igual a ${n1} -> ${n1 > n2 && n1 == n1}<br />`)
+        // || -> Ou
+        document.write(`${n1} é menor que ${n2} ou igual a ${n1} -> ${n1 < n2 || n1 == n1}<br /><br />`)
+
+        // Operador ternário:
+        // CONDIÇÃO ? seVERDADE : seMENTIRA
+        document.write(`${n1} é maior que ${n2}?<br /> ${n1 > n2 ? 'Sim' : 'Não'}`)
+    </script>
+</body>
+</html>
