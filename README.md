@@ -7,3 +7,4 @@
 2. ex002.html -> Tipos de variáveis e comando typeof.
 3. ex003.html -> Tratamento de variáveis e comando document.write.
 4. ex004.html -> Valores monetários.
+5. ex005.html -> Operadores aritméticos, atribuições e incrementos.
