@@ -9,4 +9,5 @@
 4. ex004.html -> Valores monetários.
 5. ex005.html -> Operadores aritméticos, atribuições e incrementos.
 6. ex006.html -> Operadores relacionais, lógicos e ternário.
-7. ex007.html -> DOM - seleção por marca, ID, nome, classe e seletor.
+7. ex007.html -> DOM - Seleção por marca, ID, nome, classe e seletor.
+8. ex008.html -> DOM - Eventos e calculadora.

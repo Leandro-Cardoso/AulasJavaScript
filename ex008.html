@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 008</title>
+    <style>
+        body{
+            background-color: lightslategray;
+            color: rgb(188, 195, 199);
+            font: normal 20pt Arial;
+            text-align: center;
+        }
+        h1{
+            color: white;
+        }
+        div#div1{
+            background-color: bisque;
+            color: black;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+        div#div2{
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 150px;
+            line-height: 50px;
+            text-align: center;
+        }
+        div#resultado{
+            background-color: white;
+            color: black;
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício 008</h1>
+    <p>Conteúdo de teste, para os exercícios de JavaScript...</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <div id="div1">
+        <p>Clique aqui!</p>
+    </div>
+    <div id="div2">
+        <h2>Somando valores:</h2>
+        <input type="number" id="n1"> + 
+        <input type="number" id="n2">
+        <input type="button" value="Somar" onclick="somar()">
+    </div>
+    <div id="resultado">
+        Resultado
+    </div>
+    <script>
+        // DOM - Eventos:
+        document.getElementById('div1').addEventListener('click', clicar)
+        document.getElementById('div1').addEventListener('mouseenter', entrar)
+        document.getElementById('div1').addEventListener('mouseout', sair)
+        function clicar(){
+            document.getElementById('div1').innerText = 'Clicou!'
+        }
+        function entrar(){
+            document.getElementById('div1').style.backgroundColor = 'gold'
+        }
+        function sair(){
+            document.getElementById('div1').style.backgroundColor = 'bisque'
+        }
+
+        // Calculadora:
+        function somar(){
+            var n1 = Number(document.getElementById('n1').value)
+            var n2 = Number(document.getElementById('n2').value)
+            document.getElementById('resultado').innerText = n1 + n2
+        }
+    </script>
+</body>
+</html>
