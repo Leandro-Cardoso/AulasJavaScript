@@ -3,6 +3,7 @@
 
 ### Tópicos:
 
+#### I - Comandos básicos e DOM:
 1. ex001.html -> Estrutura, comando window (criar janelas) e comentários.
 2. ex002.html -> Tipos de variáveis e comando typeof.
 3. ex003.html -> Tratamento de variáveis e comando document.write.
@@ -11,3 +12,6 @@
 6. ex006.html -> Operadores relacionais, lógicos e ternário.
 7. ex007.html -> DOM - Seleção por marca, ID, nome, classe e seletor.
 8. ex008.html -> DOM - Eventos e calculadora.
+
+#### II - Condições:
+9. ex009.html -> Condições e dia e hora do sistema.
