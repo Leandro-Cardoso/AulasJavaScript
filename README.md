@@ -14,4 +14,5 @@
 8. ex008.html -> DOM - Eventos e calculadora.
 
 #### II - Condições:
-9. ex009.html -> Condições e dia e hora do sistema.
+1. ex009.html -> Condições e dia e hora do sistema.
+2. ex010.html -> DESAFIO - Hora do dia.
