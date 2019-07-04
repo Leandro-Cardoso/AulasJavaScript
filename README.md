@@ -15,6 +15,7 @@
 
 #### II - Condições e repetições:
 1. ex009.html -> Condições e dia e hora do sistema.
-2. ex010.html -> DESAFIO - Hora do dia.
-3. ex011.html -> DESAFIO - Verificador de idade.
+2. ex010.html -> <strong>DESAFIO</strong> - Hora do dia.
+3. ex011.html -> <strong>DESAFIO</strong> - Verificador de idade.
 4. ex012.html -> Laços de repetições.
+5. ex013.html -> <strong>DESAFIO</strong> - Contando passos.
