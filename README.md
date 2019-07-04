@@ -13,7 +13,8 @@
 7. ex007.html -> DOM - Seleção por marca, ID, nome, classe e seletor.
 8. ex008.html -> DOM - Eventos e calculadora.
 
-#### II - Condições:
+#### II - Condições e repetições:
 1. ex009.html -> Condições e dia e hora do sistema.
 2. ex010.html -> DESAFIO - Hora do dia.
 3. ex011.html -> DESAFIO - Verificador de idade.
+4. ex012.html -> Laços de repetições.
