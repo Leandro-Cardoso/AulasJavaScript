@@ -18,4 +18,5 @@
 2. ex010.html -> <strong>DESAFIO</strong> - Hora do dia.
 3. ex011.html -> <strong>DESAFIO</strong> - Verificador de idade.
 4. ex012.html -> Laços de repetições.
-5. ex013.html -> <strong>DESAFIO</strong> - Contando passos.
+5. ex013.html -> <strong>DESAFIO</strong> - Contando passos (emoji).
+6. ex014.html -> <strong>DESAFIO</strong> - Tabuada (select).
