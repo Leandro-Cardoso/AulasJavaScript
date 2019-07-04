@@ -20,3 +20,6 @@
 4. ex012.html -> Laços de repetições.
 5. ex013.html -> <strong>DESAFIO</strong> - Contando passos (emoji).
 6. ex014.html -> <strong>DESAFIO</strong> - Tabuada (select).
+
+#### III - Variáveis compostas:
+1. ex015.html -> Variáveis compostas e for in.
