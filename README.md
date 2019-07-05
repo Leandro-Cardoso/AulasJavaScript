@@ -21,7 +21,8 @@
 5. ex013.html -> <strong>DESAFIO</strong> - Contando passos (emoji).
 6. ex014.html -> <strong>DESAFIO</strong> - Tabuada (select).
 
-#### III - Variáveis compostas e funções:
+#### III - Variáveis compostas, funções e objetos:
 1. ex015.html -> Variáveis compostas e for in.
 2. ex016.html -> Funções.
 3. ex017.html -> <strong>DESAFIO</strong> - Analisador de vetor.
+4. ex018.html -> Objetos.
