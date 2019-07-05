@@ -24,3 +24,4 @@
 #### III - Variáveis compostas e funções:
 1. ex015.html -> Variáveis compostas e for in.
 2. ex016.html -> Funções.
+3. ex017.html -> <strong>DESAFIO</strong> - Analisador de vetor.
