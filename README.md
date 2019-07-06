@@ -1,5 +1,6 @@
 # AulasJavaScript
 <p>Aulas, exercícios e testes em JavaScript.</p>
+<p><b>Necessário conhecimento prévio de HTML e CSS.</b></p>
 
 ### Tópicos:
 
