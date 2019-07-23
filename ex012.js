@@ -18,4 +18,10 @@ function carregar(){
     for(c; c <= 15; ++c){
         document.getElementById('div1').innerHTML += `<p>Teste C... ${c}</p>`
     }
+
+    // Percorrer lista
+    var lista = [10, 20, 30]
+    lista.forEach(function(item){
+        document.getElementById('div1').innerHTML += `<p>Teste ${item}</p>`
+    })
 }
